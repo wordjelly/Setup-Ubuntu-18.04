@@ -42,3 +42,10 @@ sudo apt install sublime-text
 
 #QT-5 
 sudo apt-get install g++ qt5-default libqt5webkit5-dev gstreamer1.0-plugins-base gstreamer1.0-tools gstreamer1.0-x
+
+## zip unzip functionality.
+sudo apt-get install zip unzip
+
+
+
+
