@@ -26,3 +26,5 @@ sudo apt install elasticsearch=7.11.2
 ## this is because the elasticsearch and logstash users need to be able to write to the log files.
 sudo chmod -R 777 /var/log/elasticsearch
 sudo chmod -R 777 /var/log/logstash
+
+cat ./es.options >> /etc/elasticsearch/jvm.options.d/es.options
