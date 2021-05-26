@@ -1,5 +1,6 @@
 #!bin/bash
 
+
 #INSTALL REDIS
 
 sudo apt-get update
@@ -45,6 +46,12 @@ sudo apt-get install g++ qt5-default libqt5webkit5-dev gstreamer1.0-plugins-base
 
 ## zip unzip functionality.
 sudo apt-get install zip unzip
+
+## add a user called bhargav.
+sudo adduser  bhargav
+
+## after setting it up add it to the sudo group.
+sudo usermod -a -G sudo bhargav
 
 
 
